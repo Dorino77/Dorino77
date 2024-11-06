@@ -1,0 +1,62 @@
+/* assets/css/formtambah.css */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Form card styles */
+.form-card {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-card input[type="text"],
+.form-card input[type="number"],
+.form-card input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-card button[type="submit"] {
+  padding: 10px;
+  background-color: #d8b035;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-card button[type="submit"]:hover {
+  background-color: #e65a00;
+}
